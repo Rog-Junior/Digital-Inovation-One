@@ -1,0 +1,96 @@
+/* login: 15792132780
+Senha: 256633A@mmm */
+
+*{
+  padding: 0;
+  margin:0;
+}
+ul, a{
+text-decoration: none;
+list-style: none;
+}
+body{
+  background-color: black;
+  font-size: 14px;
+  font-family: Times New Roman;
+  color: #fff;
+}
+.menu .logo{
+font-size:40px;
+font-family: 'Arial-Black', times;
+text-transform: uppercase;
+color: red;
+}
+.menu{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 3px 15px;
+}
+.menu ul{
+display: flex;
+flex-direction: row;
+color: white;
+height: 100%;
+align-items: center;
+}
+
+.menu ul li{
+margin-left:15px;
+padding: 7px;
+color: #fff;
+}
+.menu ul li:hover{
+background-color: rgba(255,255,255,.50)
+}
+.capa-exibicao{
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) ,url("./img/capa-house.jpg");
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.descricao{
+font-family: 'Helvetica Neue';
+margin-top:5%;}
+
+.titulo{
+  margin-top: 20%;
+  font-size: 30px;
+  margin-bottom: 5%;
+  font-family: 'Helvetica Neue'; 
+}
+.container{
+margin-left: 40px;
+width:50%;}
+.container p{
+  margin-bottom: 50px;
+}
+.botao{
+  background-color: rgba(0,0,0,.70);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  margin-right: 10px;
+  font-size: 12px;
+  transition: 2s ease;
+  margin: 8px;
+}
+.botao:hover{
+  border: 1px solid white;
+}
+.ico-space{
+  margin-right: 7px;
+}
+.carousel-img-size{
+width: 100%;
+height: 100%;}
+
+@media(max-width: 600px){
+.menu{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
